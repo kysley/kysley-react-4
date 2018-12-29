@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import { Global, css } from '@emotion/core'
 
 import Home from 'Pages/Home'
+import Header from 'Components/Header'
 
 import TR from '../assets/fonts/Theinhardt-Regular.woff'
 import TB from '../assets/fonts/Theinhardt-Bold.woff'
@@ -38,7 +39,6 @@ const global = css`
     overflow-x: hidden;
     background-color: #1b1818;
     color: #c1b58f;
-    /* background-color: #f6f8fa; */
   }
 `
 
@@ -47,14 +47,10 @@ const App = () => (
     <Global styles={global} />
     <Router>
       <>
-        {/* <Header /> */}
-        {/* <Wrapper> */}
-          {/* <Container> */}
-            <Switch>
-              <Route exact path="/" component={Home} />
-            </Switch>
-          {/* </Container> */}
-        {/* </Wrapper> */}
+        <Header />
+        <Switch>
+          <Route exact path="/" component={Home} />
+        </Switch>
       </>
     </Router>
   </>

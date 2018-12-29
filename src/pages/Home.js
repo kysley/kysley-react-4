@@ -12,12 +12,12 @@ const Home = () => (
     <MainText>Evan</MainText>
     <MainText>—</MainText>
     <MainText>Kysley</MainText>
-    <ProjectText>W–O–R K–</ProjectText>
+    <ProjectText>W–O–R K—</ProjectText>
     <CurrentText>CURRENTLY</CurrentText>
     <CurrentInfo>
       Greater Toronto Area -
       - On Contract w/ Beaxy Digital -
-      Lead Dev for Scribe - Front End Engineer -
+      Lead F/E Eng for Scribe - Front End Engineer -
       22
     </CurrentInfo>
     <ProjectList>

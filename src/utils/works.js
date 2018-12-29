@@ -19,7 +19,7 @@ export default [
   },
   {
     name: 'Kysley-React (3)',
-    desc: "What you're looking at now.",
+    desc: "The third you're looking at now.",
     link: 'https://github.com/kysley/kysley-react-3',
     order: 3,
   },
@@ -40,6 +40,12 @@ export default [
     desc: 'Old company website',
     link: 'https://whiteblock.tech',
     order: 6,
+  },
+  {
+    name: 'beaxy.com',
+    desc: 'Front End Engineering & LTS',
+    link: 'https://beaxy.com',
+    order: 7,
   },
 ]
 
