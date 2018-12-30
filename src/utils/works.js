@@ -1,5 +1,11 @@
 export default [
   {
+    name: 'Scribe',
+    desc: 'Online story writing that just works.',
+    link: 'https://github.com/withscribe',
+    order: 8,
+  },
+  {
     name: 'Pollarity',
     desc: 'Strawpolls #1 competitor. (Depricated)',
     link: 'https://github.com/kysley/pollarity.cool',
